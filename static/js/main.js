@@ -1,3 +1,4 @@
+// Navigation menu
 document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
@@ -18,4 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+});
+
+// Close button on notification
+document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    const $notification = $delete.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+  });
 });
