@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="static/css/bulma.min.css">
+
+        <title>Test Bulma</title>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar is-info has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="">
+                    Navbar
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item">
+                        Link 1
+                    </a>
+                    <a class="navbar-item">
+                        Link 2
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main content -->
+        <div class="container">
+            <div class="mx-3">
+                <!-- Text -->
+                <span class="is-size-1">Size 1</span>
+                <span class="is-size-2">Size 2</span>
+                <span class="is-size-3">Size 3</span>
+                <span class="is-size-4">Size 4</span>
+                <span class="is-size-5">Size 5</span>
+                <p class="title is-3 is-spaced">Title 1</p>
+                <p class="subtitle is-5">Subtitle 3</p>
+                <div class="is-size-1 has-text-white has-background-info has-text-centered">
+                    Sample text
+                </div>
+                <hr>
+                <!-- Block -->
+                <div class="block">
+                    Block
+                </div>
+                <div class="block">
+                    Block
+                </div>
+                <hr>
+                <!-- Box -->
+                <div class="box">
+                    Box
+                </div>
+                <hr>
+                <!-- Card -->
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            Card title
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <div>
+                            Card content
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">Save</a>
+                        <a href="#" class="card-footer-item">Edit</a>
+                        <a href="#" class="card-footer-item">Delete</a>
+                    </footer>
+                </div>
+                <hr>
+                <!-- Multi -->
+                <div class="columns is-mobile is-centered">
+                    <div class="column is-half">
+                        <div class="box">
+                            Static center content
+                        </div>
+                    </div>
+                </div>
+                <div class="columns is-mobile is-centered">
+                    <div
+                        class="column is-full-mobile is-three-quarters-tablet is-two-thirds-desktop is-half-widescreen is-one-third-fullhd">
+                        <div class="box">Dynamic center content</div>
+                    </div>
+                </div>
+                <div class="columns is-mobile is-multiline is-centered is-vcentered">
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 1</div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 2</div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 3</div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 4</div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 5</div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 6</div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 7</div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="box">Multiple content 8</div>
+                    </div>
+                </div>
+                <hr>
+                <!-- Notification -->
+                <div class="notification is-info">
+                    Notification
+                </div>
+                <hr>
+                <!-- Message -->
+                <article class="message is-info">
+                    <div class="message-header">
+                        <p>Message title</p>
+                    </div>
+                    <div class="message-body">
+                        Message body
+                    </div>
+                </article>
+                <hr>
+                <!-- Table -->
+                <table class="table is-bordered is-hoverable">
+                    <thead>
+                        <tr>
+                            <th>One</th>
+                            <th>Two</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Three</td>
+                            <td>Four</td>
+                        </tr>
+                        <tr>
+                            <td>Five</td>
+                            <td>Six</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <figure class="image is-128x128">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure><br>
+                <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <hr>
+                <!-- Button -->
+                <a class="button is-info">Button</a>
+                <button class="button is-info">Button</button>
+                <input class="button is-info" type="submit" value="Button">
+                <button class="delete"></button>
+                <hr>
+                <!-- Tag -->
+                <div class="tags">
+                    <span class="tag is-info">Tag</span>
+                    <span class="tag is-info">Tag</span>
+                    <span class="tag is-info">Tag</span>
+                </div>
+                <hr>
+                <!-- Form -->
+                <div class="box">
+                    <form action="">
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Text input">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input class="input" type="email" placeholder="Email input">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Subject</label>
+                            <div class="control">
+                                <div class="select">
+                                    <select>
+                                        <option>Select dropdown</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    I agree to the <a href="#">terms and conditions</a>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question">
+                                    Yes
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-info">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <!-- Pagination -->
+                <nav class="pagination" role="navigation" aria-label="pagination">
+                    <ul class="pagination-list">
+                        <li>
+                            <a class="pagination-previous">Previous</a>
+                        </li>
+                        <li>
+                            <a class="pagination-link" aria-label="Goto page 1">1</a>
+                        </li>
+                        <li>
+                            <span class="pagination-ellipsis">&hellip;</span>
+                        </li>
+                        <li>
+                            <a class="pagination-link" aria-label="Goto page 45">45</a>
+                        </li>
+                        <li>
+                            <a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a>
+                        </li>
+                        <li>
+                            <a class="pagination-link" aria-label="Goto page 47">47</a>
+                        </li>
+                        <li>
+                            <span class="pagination-ellipsis">&hellip;</span>
+                        </li>
+                        <li>
+                            <a class="pagination-link" aria-label="Goto page 86">86</a>
+                        </li>
+                        <li>
+                            <a class="pagination-next">Next page</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="static/js/main.js"></script>
+    </body>
+
+</html>
